@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 public class Flow {
 	private LocalDate day;
-	private double flow;
+	private float flow;
 	private River river;
 
-	public Flow(LocalDate day, double flow, River river) {
+	public Flow(LocalDate day, float flow, River river) {
 		this.day = day;
 		this.flow = flow;
 		this.river = river;
@@ -25,7 +25,7 @@ public class Flow {
 		return flow;
 	}
 
-	public void setFlow(double flow) {
+	public void setFlow(float flow) {
 		this.flow = flow;
 	}
 
